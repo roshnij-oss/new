@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="/styling/feedback.css">
+</head>
+
+<body>
+
+    <header class="thankutext"> 
+     <h4 class="thanku"><i>Thank you for visiting, your feedback is important to us!</i></h4>
+    </header>
+                             <!--embedded link--> 
+
+    <div> 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/1TO48Cnl66w" title="Dido - Thank You (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>"
+    </div>
+
+    <main> 
+        <section> 
+         <form>
+        <div>
+
+        <p class="Ratingtext"><h4>Rate your experience:</h4></p>
+        <select name="rating" id="rating">
+            <option class="verybadrating" value="1 star">1 star</option>
+            <option class="badrating" value="2 star">2 star</option>
+            <option class="avgrating"  value="3 star">3 star</option>
+            <option class="goodrating" value="4 star">4 star</option>
+            <option class="excellentrating" value="5 star">5 star</option>
+        </select>
+        </div>
+
+        <br>
+        
+
+        <div>
+
+        <label for="rating"><h4><u>Your overall experience:</u></h4></label>
+        <input type="radio" value="very poor" name="rating">very poor
+        <br> 
+        <input type="radio" value="poor" name="rating">poor
+        <br>
+        <input type="radio" value="average" name="rating">average
+        <br>
+        <input type="radio" value="good" name="rating">good
+        <br>
+        <input type="radio" value="excellent" name="rating">excellent
+
+        </div>
+        <br>
+
+        <div>
+
+    <p class="main">Please provide your feedback or any suggestions below:</p>
+
+   
+        <label class="Feedback" for="feedback"> <b><u>Your Feedback:</u></b>
+        </label>
+
+        <br>
+        <textarea class="textarea" id="feedback" name="feedback" rows="6" cols="50"></textarea>
+        <br>
+
+        <input class="submit" type="submit" value="Submit">
+        </div>
+    </form>
+    </section>
+   </main>
+</body>
+</html>

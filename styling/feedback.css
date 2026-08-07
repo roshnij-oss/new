@@ -1,0 +1,108 @@
+        .thankutext{
+            width: auto;
+            height: auto;
+            display: inline-block;
+            
+        }
+        .thanku
+        {
+            text-align:center;
+            color:black;
+            margin-top: 0px;
+            margin-bottom: 10px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size:25px;
+            font-style: italic;
+            width:100%;
+            display: inline-block;
+            line-height:30px;                   
+
+        }
+
+        body {
+            background-color: rgb(201, 240, 201);
+        }
+
+        .main
+        {
+           text-align:left;
+           color: rgb(85, 87, 83); 
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           font-size: 21px;
+           font-weight: bolder;
+           
+        }
+
+        .feedback{
+            font-family:'Times New Roman';
+            color:rgb(221, 8, 8);
+            font-size:larger;
+           
+        }
+
+        .rating{
+            font-size:large;
+            font-family:'Times New Roman';
+
+        }
+        
+        .textarea{
+            background-color:skyblue;
+            font-family:times new roman;
+            font-size:20px;
+            border: 2px, solid, black;
+            border-radius:1px;
+            margin-top:15px;
+            margin-bottom:10px;
+            padding-left:5px;
+        }
+
+        .textarea-hover{
+            border: 2px, solid, black;
+        }
+
+        .submit{
+            width:70px;
+        }
+
+        .submit:hover{
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+            opacity:0.8;
+            background-color: rgb(209, 209, 158);
+
+        }
+
+        .submit:active{ 
+                opacity:0.5;
+                background-color: rgb(209, 209, 158);
+             }
+
+        .rating-text{
+            font-size:8px;
+        }    
+
+        .verybadrating
+        {
+            background-color:darkred;
+            
+        }
+
+        .badrating
+        {
+            background-color:rgb(146, 49, 49);
+        }
+        
+        .avgrating
+        {
+            background-color:yellowgreen;
+        }
+
+        .goodrating
+         {
+            background-color:green;
+        }
+
+        .excellentrating
+        {
+            background-color:darkgreen;
+        }   
